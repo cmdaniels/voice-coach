@@ -1,0 +1,21 @@
+MAIN PAGE
+
+Perfect your pronunciation.
+
+Pronunciation makes the difference between one who knows the language well and one who could pass off as a native speaker. Voice Coach helps you decipher between similar sounds that are hard to reproduce for non-natives. Use a microphone to practice your accent or develop your listening skills in different game modes.
+
+Gamification (heart.svg)
+
+Lose a life when you answer incorrectly. Earn points for answering correctly.
+
+Native Recordings (mic.svg)
+
+Hear native speakers pronounce each word so you can recreate the sounds just as they do. (Available for Danish and Spanish, more coming soon)
+
+Pay What You Want (thumbs_up.svg)
+
+Pitch in what you think Voice Coach is worth to unlock the rest of the game modes.
+
+Spaced Repetition (settings.svg)
+
+Voice Coach presents words just as you are about to forget them, enhancing memory and recall.

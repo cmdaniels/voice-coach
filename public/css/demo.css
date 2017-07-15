@@ -1,0 +1,57 @@
+main {
+	padding: 32px 6px 0;
+}
+
+main .container {
+	padding: 24px 0;
+	border-radius: 16px;
+	box-shadow: 0 0 5px #777777;
+}
+
+h2 {
+	text-align: center;
+}
+
+.progress,
+.bar {
+	border-radius: 3px;
+}
+
+.progress {
+	width: 75%;
+	margin: 0 auto;
+	background-color: #e2e2e2;
+	border: 1px gray solid;
+}
+
+.bar {
+	width: 0;
+	height: 30px;
+	background-color: #FFD700;
+	-webkit-transition: width 2s;
+	transition: width 2s;
+}
+
+audio {
+	display: block;
+	margin: 24px auto;
+}
+
+form {
+	margin: 0;
+}
+
+.radiogroup {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.radiogroup input {
+	margin: 0 16px 16px 0;
+	font-size: 24px;
+}
+
+button.call-to-action {
+	display: block;
+	margin: 0 auto;
+}

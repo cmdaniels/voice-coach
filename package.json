@@ -1,0 +1,15 @@
+{
+  "name": "voice-coach",
+  "version": "1.0.0",
+  "description": "Perfect your pronunciation.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cody Daniels",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}

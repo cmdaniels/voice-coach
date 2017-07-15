@@ -1,0 +1,51 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Voice Coach: Perfect Your Pronunciation</title>
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/demo.css" rel="stylesheet" type="text/css">
+	<script src="https://cdn.firebase.com/libs/firebaseui/2.1.1/firebaseui.js"></script>
+	<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.1.1/firebaseui.css" />
+	<script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+		apiKey: "AIzaSyBNtwS-ZuFe04iO06NGvZH7tOX3nN4LKHA",
+		authDomain: "voice-coach.firebaseapp.com",
+		databaseURL: "https://voice-coach.firebaseio.com",
+		projectId: "voice-coach",
+		storageBucket: "gs://voice-coach.appspot.com",
+		messagingSenderId: "672489959944"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+</head>
+<body>
+	<nav>
+		<div class="container">
+			<button><a href="/about">About</a></button>
+			<h1><a href="/dashboard">Voice <span>/æ/</span> Coach</a></h1>
+			<button onclick="login()">Log In</button>
+		</div>
+	</nav>
+	<main>
+		<div class="container">
+			<h2>Select what you hear:</h2>
+			<div class="progress">
+				<div class="bar"></div>
+			</div>
+			<audio id="audio" src="#" controls="true" autoplay="true" controlsList="nodownload"></audio>
+			<div class="radiogroup">
+				<input type="radio" name="answer" id="optionOne"></input><span id="labelOne"></span><br>
+				<input type="radio" name="answer" id="optionTwo"></input><span id="labelTwo"></span>
+			</div>
+			<button class="call-to-action" onclick="submit()">Submit</button>
+		</div>
+	</main>
+	<script src="js/login_btn.js"></script>
+	<script src="js/pairs.js"></script>
+	<script src="js/demo.js"></script>
+</body>
+</html>

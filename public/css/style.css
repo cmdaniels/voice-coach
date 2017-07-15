@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+/* GENERIC STYLES */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f7f7f7;
+	color: #2c3e50;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	line-height: 1.5;
+	color: #4f4f4f;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+main .container {
+	background: #fff;
+}
+
+button {
+	border-radius: 6px;
+	border: 1px gray solid;
+	padding: 8px 18px;
+	font-family: 'Open Sans', sans-serif;
+	background: none;
+	color: #4f4f4f;
+	font-size: 24px;
+}
+
+button:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+button.call-to-action {
+	color: #f7f7f7;
+	margin: 0 8px;
+	border: 1px #b2382a solid;
+	background: #e74c3c; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #e74c3c, #c13e30); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #e74c3c, #c13e30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+button.call-to-action:hover {
+	background: #e74c3c; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #c13e30, #e74c3c); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #c13e30, #e74c3c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	opacity: 1;
+}
+
+@media (max-width: 375px) {
+	button {
+		font-size: 18px;
+	}
+}
+
+/* NAVIGATION STYLES */
+
+nav {
+	background: #e74c3c; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #e74c3c, #c13e30); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #e74c3c, #c13e30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: #f7f7f7;
+}
+
+nav .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav h1 {
+	font-size: 20px;
+	margin: 10px 0;
+	font-weight: 500;
+	letter-spacing: 1.2;
+}
+
+nav h1 span {
+	letter-spacing: 1;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+nav button {
+	color: #f7f7f7;
+	margin: 0 8px;
+	font-size: 16px;
+	padding: 6px 16px;
+	border: 1px #b2382a solid;
+	background: #e74c3c; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #e74c3c, #c13e30); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #e74c3c, #c13e30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav button:hover {
+	opacity: 1;
+	background: #e74c3c; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #c13e30, #e74c3c); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #c13e30, #e74c3c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media (max-width: 375px) {
+	nav h1 {
+		font-size: 16px;
+	}
+
+	nav button {
+		font-size: 12px;
+	}
+}

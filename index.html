@@ -1,0 +1,68 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Voice Coach: Perfect Your Pronunciation</title>
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/index.css" rel="stylesheet" type="text/css">
+	<script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+	<script>
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyBNtwS-ZuFe04iO06NGvZH7tOX3nN4LKHA",
+			authDomain: "voice-coach.firebaseapp.com",
+			databaseURL: "https://voice-coach.firebaseio.com",
+			projectId: "voice-coach",
+			storageBucket: "",
+			messagingSenderId: "672489959944"
+		};
+		firebase.initializeApp(config);
+	</script>
+</head>
+
+<body>
+	<nav>
+		<div class="container">
+			<button><a href="/about">About</a></button>
+			<h1><a href="/">Voice <span>/æ/</span> Coach</a></h1>
+			<button onclick="login()">Log In</button>
+		</div>
+	</nav>
+	<main>
+		<div class="bkgrnd">
+			<div class="intro container">
+				<h2>Perfect Your<br>Pronunciation.</h2>
+				<p>Pronunciation makes the difference between one who knows a language well and one who could pass off as a native speaker. Voice Coach helps you decipher between similar sounds that are hard to reproduce for non-natives. Develop your listening skills
+					or use a microphone to practice your accent.</p>
+				<button><a href="/demo">Try it out</a></button>
+				<button class="call-to-action" onclick="login()">Sign up</button>
+			</div>
+		</div>
+		<div class="container">
+			<p class="rule">/æ/</p><br>
+			<div class="features">
+				<div class="feature">
+					<img src="img/heart.svg" width="36px" alt="Heart">
+					<h3>Gamification</h3>
+					<p>Lose a life when you answer incorrectly. Earn points for answering correctly.</p>
+				</div>
+				<div class="feature">
+					<img src="img/mic.svg" width="36px" alt="Microphone">
+					<h3>Native Recordings</h3>
+					<p>Hear native speakers pronounce each word so you can recreate the sounds just as they do. (Available for Danish, more coming soon)</p>
+				</div>
+				<div class="feature">
+					<img src="img/thumbs-up.svg" width="36px" alt="Thumbs up">
+					<h3>Pay What You Want</h3>
+					<p>Pitch in what you think Voice Coach is worth to unlock the rest of the game modes.</p>
+				</div>
+			</div>
+			<p class="rule">/æ/</p><br>
+		</div>
+	</main>
+	<script src="js/login_btn.js"></script>
+</body>
+
+</html>
